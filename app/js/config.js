@@ -21,6 +21,4 @@ app.config(['$routeProvider',
 
   // your Firebase URL goes here
   // should look something like: https://blahblahblah.firebaseio.com
-  .constant('FBURL', '<<<FIREBASE_URL_GOES_HERE>>>')
-
-
+  .constant('FBURL', 'https://austinmbrown.firebaseio.com')
