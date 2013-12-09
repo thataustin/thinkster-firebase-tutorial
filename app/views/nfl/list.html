@@ -1,0 +1,6 @@
+<div data-ng-controller="NFLController">
+  <h2>NFL Teams</h2>
+  <div data-ng-repeat="nflTeam in nflTeams">
+    <a href="#/nflteams/{{ $index }}">{{nflTeam.team}} {{ nflTeam.mascot }}</a>
+  </div>
+</div>
